@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<g id="BG" display="none">
+	<rect display="inline" opacity="0.5" width="40" height="40"/>
+</g>
+<g id="Workfile" display="none">
+	<rect x="0" display="inline" opacity="0.25" width="40" height="40"/>
+	<path display="inline" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" d="M5,20c0,8.3,6.7,15,15,15   s15-6.7,15-15"/>
+	<path display="inline" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" d="M35,20c0-8.3-6.7-15-15-15   S5,11.7,5,20"/>
+	<polygon display="inline" fill="#404040" points="16,20 0,20 0,40 6,40  "/>
+	<polygon display="inline" fill="#404040" points="24,20 40,20 40,0 34,0  "/>
+	<polygon display="inline" fill="#FFFFFF" points="10,18 0,18 5,28  "/>
+	<polygon display="inline" fill="#FFFFFF" points="30,22 40,22 35,12  "/>
+	<polygon display="inline" fill="#FFFFFF" points="20,11 20,23 14,23  "/>
+	<polygon display="inline" fill="#FFFFFF" points="20,29 20,17 26,17  "/>
+</g>
+<g id="Expanded">
+	<g>
+		<path fill="#FFFFFF" d="M28.4,12.9l3.8,8.4L40,7.8L28.4,12.9z M7.8,21.2l3.8-8.4L0,7.8L7.8,21.2z"/>
+		<polygon fill="#FFFFFF" points="25.5,37.4 20,25.2 14.5,37.4   "/>
+		<polygon fill="#FFFFFF" points="20,14.8 27.8,32 35.5,37.1 20,2.6 4.5,37.1 12.2,32   "/>
+	</g>
+</g>
+</svg>
