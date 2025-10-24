@@ -33,7 +33,7 @@ jobs:
       - name: Add webp versions of the images
         run: |
           sudo apt install imagemagick
-          find . -type f -regex ".*\.\(jpg\|jpeg\|png\)" -exec mogrify -format webp {}  \; -print
+          find . -type f -regex ".*\.\(webp\|jpg\|jpeg\|png\)" -exec mogrify -format webp {}  \; -print
       - name: Compress Images
         id: calibre
         uses: calibreapp/image-actions@main
