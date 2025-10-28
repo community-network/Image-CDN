@@ -33,7 +33,19 @@ jobs:
       - name: Add webp versions of the images
         run: |
           sudo apt install imagemagick
+          
+          # generate white versions
+          generate_white_image () {
+              find . -maxdepth 1 -type f -regex ".*\.\(webp\|jpg\|jpeg\|png\)" -exec magick {} -channel RGB  -brightness-contrast 75x0 white/{} \; -print
+          }
+
+          (cd weapons/bf6 && mkdir -p white && generate_white_image)
+          (cd weapons/bf2042 && mkdir -p white && generate_white_image)
+          (cd vehicles/bf6 && mkdir -p white && generate_white_image)
+          (cd vehicles/bf2042 && mkdir -p white && generate_white_image)
+
           find . -type f -regex ".*\.\(webp\|jpg\|jpeg\|png\)" -exec mogrify -format webp {}  \; -print
+
       - name: Compress Images
         id: calibre
         uses: calibreapp/image-actions@1.4.1
